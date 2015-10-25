@@ -122,3 +122,10 @@ li > a > i {
 button > i {
   margin-right: 5px;
 }
+
+.paypal {
+  background-image : url(https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png);
+  height: 20px;
+  width: 110px;
+  border-radius: 3px;
+}

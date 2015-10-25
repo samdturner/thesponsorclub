@@ -24,6 +24,9 @@ var Header = React.createClass({
             <i className="fa fa-star"></i>
             Favorites
           </NavItem>
+          <NavItem eventKey={3} href="#">
+            <img src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png" className="paypal" />
+          </NavItem>
         </Nav>
       </Navbar>
     )
