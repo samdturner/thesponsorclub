@@ -1,0 +1,124 @@
+.clearfix:after {
+  display: block;
+	content: " ";
+	height: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+body {
+  font-family: Source Sans Pro,sans-serif;
+  background-color: #EFF0F0;
+}
+
+.header {
+  border-radius: 0px;
+}
+
+.sponsor-card-container {
+  display: block;
+  border: 1px solid #E5E7E8;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: 0px 2px 2px -2px #E5E7E8;
+  background-color: white;
+  margin-bottom: 18px;
+}
+
+.sponsor-image {
+  width: 100%;
+  border-radius: 2px 2px 0px 0px;
+  transition: opacity 0.1s ease-in-out 0s;
+  min-height: 87px;
+  height: auto;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.card-header {
+  height: 95px;
+}
+
+.small-company-logo {
+  display: inline-block;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px
+}
+
+.company-points {
+  display: inline-block;
+}
+
+.company-name span {
+  font-size: 16px;
+}
+
+.industry span {
+  font-size: 12px;
+  color: #83878A;
+  font-weight: 600;
+}
+
+.number-employees *,
+.company-locality * {
+  color: #83878A;
+  font-size: 12px;
+}
+
+.number-employees i {
+  margin-right: 5px;
+}
+
+.company-locality i {
+  margin-right: 7px;
+}
+
+.sponsor-description-container {
+  height: 75px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  font-size: 13px;
+}
+
+.sponsor-description-container span {
+  font-size: 13px;
+}
+
+.filter-card {
+  padding: 18px;
+  background-color: white;
+}
+
+.filter-border {
+  border-bottom: 1px solid #E5E7E8;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+label span {
+  font-weight: 400;
+}
+
+h4 {
+  margin: 18px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+li > a > i {
+  margin-right: 6px;
+}
+
+button > i {
+  margin-right: 5px;
+}
